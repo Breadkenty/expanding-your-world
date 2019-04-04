@@ -15,6 +15,10 @@ html {
   justify-content: center;
 }
 
+h1 {
+  margin: 20px;
+}
+
 .header-wrapper {
   width: 600px;
   height: 600px;
@@ -23,8 +27,26 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  animation: homeimg infinite 30s;
+  animation: homeimg infinite 15s;
   margin: 40px 0px 0px 0px;
+}
+
+.about-wrapper {
+  width: 600px;
+  height: 600px;
+  background-color: white;
+  opacity: 0.7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0px 0px 0px;
+  border-radius: 5px;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .home-header {
@@ -32,20 +54,53 @@ html {
   font-size: 8rem;
 }
 
-body {
+.home-background {
   margin: 0;
   padding: 0;
   animation: bgcolor infinite 50s;
 }
 
-.menu {
-  border: 2px pink solid;
+.not-home-background {
+  width: 600px;
+  height: 600px;
+  background-image: url(Favorites/1.jpg);
+  background-size: 100%;
+  animation: homeimg infinite 15s;
   margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+}
+
+.about-wrapper {
+  height: 60vh;
+  width: 600vw;
+
+  overflow: scroll;
+  display: inline-block;
+  padding: 50px;
+}
+
+p {
+  margin-bottom: 10px;
 }
 
 .nav-bar {
   display: flex;
   justify-content: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-bar-background {
+  background: black;
+  opacity: 0.7;
+  width: 100vw;
+  padding: 0;
+  margin: 0;
+  border-radius: 5px;
 }
 
 .nav-bar li {
